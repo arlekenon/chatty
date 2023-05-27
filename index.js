@@ -1,8 +1,6 @@
 const TelegramApi = require('node-telegram-bot-api')
 //const OpenAiApi = require('openai')
-const {addtOptions,nastOptions, roleOptions, vibeOptions,persOptions, numbOptions, againOptions, keyOptions, iionkeyOptions,
-    addvOptions
-} = require('./poptions')
+const {addtOptions,nastOptions, roleOptions, vibeOptions,persOptions, numbOptions, againOptions, keyOptions, iionkeyOptions} = require('./poptions')
 const {vozm, surp} =require('./infofile')
 const dotenv = require("dotenv");
 dotenv.config();
