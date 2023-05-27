@@ -1,7 +1,7 @@
 const axios = require('axios');
 const dotenv = require("dotenv");
 dotenv.config();
-const {addvOptions} = require('../options')
+const {addvOptions} = require('../poptions')
 
 const chatslastcont = {}
 async function getAnswer (chatId, content, bot)  {
